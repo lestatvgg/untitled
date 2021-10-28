@@ -1,0 +1,16 @@
+h1 {
+    Color: blue;
+    font-weight: bold;
+    font-family: Arial;
+    width: 200px;
+}
+
+
+.wrapper1 {
+    font-family: Arial;
+    width: 400px;
+}
+
+p {
+    font-size: 10px;
+}
