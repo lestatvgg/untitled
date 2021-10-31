@@ -1,0 +1,36 @@
+.thead__bac {
+    background: blue;
+    color: white;
+    font-weight: bold;
+}
+
+.tbody__bac {
+    background: darkgoldenrod;
+    color: black;
+    font-weight: bold;
+}
+
+.borderElement {
+    background-color: #EEDDFF;
+    border: 6px solid #7922CC;
+    border-radius: 25px;
+
+}
+
+.head1 {
+    border-top-left-radius:20px;
+
+}
+.head4 {
+    border-top-right-radius:20px;
+
+}
+
+.data1 {
+    border-button-right-radius:10px ;
+}
+
+.data4 {
+    border-radius: 0 0 20px 0px;
+
+}
