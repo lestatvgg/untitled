@@ -1,0 +1,25 @@
+.day2 > span {
+    color: blue;
+    font-weight: bold;
+    font-family: Arial;
+
+}
+.day2bic > span {
+    color: blue;
+    font-weight: bold;
+    font-family: Arial;
+
+
+}
+
+.chet {
+    color: blue;
+    font-weight: bold;
+
+}
+
+li:hover {
+    color: blue;
+
+
+}
