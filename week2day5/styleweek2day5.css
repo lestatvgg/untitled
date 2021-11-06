@@ -1,0 +1,50 @@
+.grid {
+    display: grid;
+    grid-template-columns: 200px;
+    grid-template-rows: auto;
+}
+
+.item1, .item2, .item3, .item4, .item5, .item6, .item7 {
+    text-align: center;
+    border: 2px solid black;
+    padding: 30px;
+    color: white;
+
+}
+
+.item1 {
+    height: 10px;
+     background: black;
+}
+
+.item2 {
+    background: red;
+}
+
+.item3 {
+    height: 150px;
+    background: lightskyblue;
+
+}
+
+.item4 {
+    height: 100px;
+    background: darkblue;
+}
+
+.item5 {
+    height: 70px;
+    background: darkgoldenrod;
+}
+
+.item6 {
+    height: 50px;
+    background: lightgreen;
+}
+
+.item7 {
+    height: 50px;
+    background: lightgray;
+}
+
+
