@@ -1,0 +1,182 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background: red;
+    transition: 1s;
+}
+
+.box:hover {
+    background: blue;
+}
+
+div {
+    color: white;
+    transition: 1s;
+}
+
+.div:hover {
+    background: red;
+}
+
+.block {
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    transition: 1s;
+    transform: scale(1);
+    transition-property:transform, all;
+
+}
+
+.block:hover {
+    width: 100%;
+    transition: 1s;
+
+
+}
+
+.f3 {
+    width: 100px;
+    height: 100px;
+    position: sticky;
+    top: 10px;
+    background-color: black;
+}
+
+.f1, .f2, .f3, .f4, .f5 {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.f1 {
+    background-color: #7922CC;
+}
+
+.f2 {
+    background-color: #EEDDFF;
+}
+
+.f4 {
+    background-color: darkgoldenrod;
+}
+
+.f5 {
+    background-color: gray;
+}
+
+.nendoveb-kubscupon {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:350px;
+    height:100px;
+}
+.nendoveb-kubscupon h3 {
+    color:rgba(100,100,100,0.9);
+}
+.nendoveb-kubscupon .kacekagen-protsem {
+    width: 0%;
+    height: 5px;
+    background: linear-gradient(to right,rgb(51, 253, 93),rgb(71, 185, 236),rgb(42, 147, 245),rgb(41, 168, 222),rgb(120, 56, 179),rgb(234, 34, 70));
+    margin-top: 10px;
+    background-size: 353px 5px;
+    border-radius: 12px;
+    animation: loading 6s ease-in-out forwards;
+}
+
+.nendoveb-kubscupon .akemobvous {
+    width: 100%;
+    height: 35px;
+    background: linear-gradient(to bottom,rgba(185, 173, 173, 0.17),rgba(97, 91, 91, 0.1),rgba(53, 51, 51, 0));
+    transform: skew(45deg) translate(15px,5px);
+}
+@keyframes loading {
+    to {
+        width:100%;
+    }
+}
+
+.wrap {
+    margin: 100px;
+}
+
+.route {
+    height: 200px;
+    width: 400px;
+    border: 3px dotted #000;
+    position: relative;
+}
+
+.plane {
+    position: absolute;
+    bottom: -13px;
+    left: 100%;
+    animation-iteration-count: 3;
+    animation: flyLeft 1.5s linear forwards, rotatePlane 0.5s linear 1.5s forwards, flyUp 1s linear forwards 2s, RotateRight 0.5s linear 2.8s forwards, MoveRight 3s linear forwards 3s, RotateDown 1s linear 6s forwards, flyDown 1s linear forwards 7s, RotateLeft 1s linear 7.8s forwards;
+}
+
+@keyframes flyLeft {
+    100% {
+        left: -14px;
+    }
+}
+
+@keyframes rotatePlane {
+    100% {
+        transform: rotateZ(90deg);
+    }
+}
+
+@keyframes flyUp {
+    100% {
+        bottom: 100%;
+    }
+}
+
+@keyframes RotateRight {
+    0% {
+        transform: rotateZ(90deg);
+    }
+    100% {
+        transform: rotateZ(180deg);
+    }
+}
+
+@keyframes MoveRight {
+    0% {
+        left: -14px;
+    }
+    100% {
+        left: 380px;
+    }
+}
+
+@keyframes RotateDown {
+    0% {
+        transform: rotateZ(180deg);
+    }
+    100% {
+        transform: rotateZ(270deg);
+    }
+}
+
+@keyframes flyDown {
+    0% {
+        bottom: 100%;
+    }
+    100% {
+        bottom: -8%;
+    }
+}
+
+@keyframes RotateLeft {
+    0% {
+        transform: rotateZ(270deg);
+    }
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
