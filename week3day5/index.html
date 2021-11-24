@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="week3day5.js" defer></script>
+    <link href="styleday5.css" rel="stylesheet">
+</head>
+<body>
+<!--    <div class="container">-->
+<!--        <div class="container__list1">item1</div>-->
+<!--            <div id = "main__container"></div>-->
+<!--            <div class="style__item">STYLE</div>-->
+<!--    </div>-->
+
+<!--    <div class="container1">-->
+<!--        <ul class="container__list">-->
+<!--            <li class="container__list-item">Item-1</li>-->
+<!--            <li class="text2">Item-2</li>-->
+<!--            <li class="container__list-item">Item-3</li>-->
+<!--            <li class="text2">Item-4</li>-->
+<!--            <li class="container__list-item">Item-5</li>-->
+<!--            <li class="text2">Item-6</li>-->
+<!--            <li class="container__list-item">Item-7</li>-->
+<!--            <li class="text2">Item-8</li>-->
+<!--            <li class="container__list-item">Item-9</li>-->
+<!--            <li class="text2">Item-10</li>-->
+
+<!--        </ul>-->
+<!--    </div>-->
+
+<!--&lt;!&ndash;    <h3><center>JavaScript Click Counter</center></h3>&ndash;&gt;-->
+<!--&lt;!&ndash;    <div>&ndash;&gt;-->
+<!--&lt;!&ndash;        <center><h3 id="counter-label">0</h3></center>&ndash;&gt;-->
+<!--&lt;!&ndash;    </div>&ndash;&gt;-->
+<!--&lt;!&ndash;    <center>&ndash;&gt;-->
+<!--&lt;!&ndash;        <div>&ndash;&gt;-->
+<!--&lt;!&ndash;            <button onclick="incrementClick()">Click Me</button>&ndash;&gt;-->
+<!--&lt;!&ndash;            <button onclick="resetCounter()">Reset</button>&ndash;&gt;-->
+<!--&lt;!&ndash;        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;    </center>&ndash;&gt;-->
+
+<!--    <h3><center>JavaScript Click Counter</center></h3>-->
+<!--    <div>-->
+<!--        <center><h3 id="counter-label">0</h3></center>-->
+<!--    </div>-->
+<!--    <center>-->
+<!--        <div>-->
+<!--            <div onclick="incrementClick()">Click Me</div>-->
+<!--            <button onclick="resetCounter()">Reset</button>-->
+<!--        </div>-->
+<!--    </center>-->
+
+   <!-- <table>
+        <tr>
+            <th>data1</th>
+            <th>data2</th>
+            <th>data3</th>
+            <th>data4</th>
+            <th>data5</th>
+
+        </tr>
+        <tr>
+            <pre>
+                <td>user1</td>
+                <td>user2</td>
+                <td>user3</td>
+                <td>user4</td>
+                <td>user5</td>
+            </pre>
+
+        </tr>-->
+
+
+<!--    </table>-->
+//задание3
+<!--    <table>-->
+<!--        <tr>-->
+<!--            <td class="number">1</td>-->
+<!--            <td class="number">2</td>-->
+<!--            <td class="number">3</td>-->
+<!--        </tr>-->
+<!--        <tr>-->
+<!--            <td class="number">4</td>-->
+<!--            <td class="number">5</td>-->
+<!--            <td class="number">6</td>-->
+<!--        </tr>-->
+<!--        <tr>-->
+<!--            <td class="number">7</td>-->
+<!--            <td class="number">8</td>-->
+<!--            <td class="number">9</td>-->
+<!--        </tr>-->
+<!--    </table>-->
+
+//задание4
+    <table class="table1">
+        <tr>
+            <td class="number1">1</td>
+            <td class="number1">2</td>
+            <td class="number1">3</td>
+        </tr>
+        <tr>
+            <td class="number1">4</td>
+            <td class="number1">5</td>
+            <td class="number1">6</td>
+        </tr>
+        <tr>
+            <td class="number1">7</td>
+            <td class="number1">8</td>
+            <td class="number1">9</td>
+        </tr>
+        <tr>
+            <td class="number1">10</td>
+            <td class="number1">11</td>
+            <td class="number1">12</td>
+        </tr>
+        <tr>
+            <td class="number1">13</td>
+            <td class="number1">14</td>
+            <td class="number1">15</td>
+        </tr>
+<!--    <script>-->
+<!--        const table1 = document.querySelector ('.table1');-->
+<!--            let currentElem;-->
+<!--            table1.addEventListener('click', (event) => {-->
+<!--                console.log('event', event.target.tagName);-->
+<!--                if (event.target.tagName === "TD") {-->
+<!--                    if (currentElem) currentElem.className = "";-->
+<!--                        currentElem = event.target;-->
+<!--                            currentElem.className = "background-color = red";-->
+<!--                }-->
+<!--            })-->
+
+
+<!--    </script>-->
+
+вариант 2
+<!--        <script>-->
+<!--            let table = document.getElementById('table')-->
+<!--            let selecteTd;-->
+
+<!--            table.onclick = (event) => {-->
+<!--                let target = event.target;-->
+
+<!--                while (target != this) {-->
+<!--                    if (target.tagName == 'TD') {-->
+<!--                        hig (target);-->
+<!--                        return;-->
+<!--                    }-->
+<!--                    target = target.parentNode;-->
+<!--                }-->
+<!--            }-->
+
+<!--            function hig(node) {-->
+<!--                if (selecteTd) {-->
+<!--                    selecteTd.classList.remove('light');-->
+<!--                    }-->
+<!--                selecteTd = node;-->
+<!--                selecteTd.classList.add('light')-->
+<!--            }-->
+
+
+
+
+<!--        </script>-->
+
+
+<!--    </table>-->
+
+<!--        <form name="test" method="post" action="input1.php">-->
+<!--            <p><b>Ваше имя:</b><br>-->
+<!--                <input type="text" size="40">-->
+<!--            </p>-->
+<!--            <p><b>Каким браузером в основном пользуетесь:</b><Br>-->
+<!--                <input type="radio" name="browser" value="ie"> Internet Explorer<Br>-->
+<!--                <input type="radio" name="browser" value="opera"> Opera<Br>-->
+<!--                <input type="radio" name="browser" value="firefox"> Firefox<Br>-->
+<!--            </p>-->
+<!--            <p>Комментарий<Br>-->
+<!--                <textarea name="comment" cols="40" rows="3"></textarea></p>-->
+<!--            <p><input type="submit" value="Отправить">-->
+<!--                <input type="reset" value="Очистить"></p>-->
+<!--        </form>-->
+//задание 7
+        <input type="button" value="Кнопка" class="delete-btn" onclick="this">
+
+
+
+
+
+
+</body>
+</html>

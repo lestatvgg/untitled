@@ -1,0 +1,51 @@
+.style__item {
+    height: 10px;
+    width: 50px;
+    margin: 10px;
+    color: green;
+}
+
+body {
+    background-color: gray;
+}
+
+.container__list {
+    background-color: chocolate;
+    margin-bottom: 10px;
+    width: 120px;
+
+}
+
+table {
+    border: 2px darkblue solid;
+    margin-bottom: 2px;
+    padding: 5px;
+
+}
+
+form {
+    font: 1em sans-serif;
+    max-width: 320px;
+}
+
+p > label {
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea,
+fieldset {
+    width : 100%;
+    border: 1px solid #333;
+    box-sizing: border-box;
+}
+
+input:invalid {
+    box-shadow: 0 0 5px 1px red;
+}
+
+input:focus:invalid {
+    box-shadow: none;
+}
