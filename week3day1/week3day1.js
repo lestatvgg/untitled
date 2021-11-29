@@ -4,26 +4,33 @@
 
 // let age = prompt("сколько тебе лет", 100);
 // alert(`тебе ${age} лет`);
-
-// let num=3
+//Задание3
+// let num = 3
 // const str = ''
 // let boolean = true
 //
-// console.log(!num)
-// console.log(!str)
-// console.log(!boolean)
+// const str1 = '123'
+// const num1 = 0
+// const bool = null
+// // console.log(!!num)
+// console.log(!!num1)
+// console.log(!!str1)
+// // console.log(!!str)
+// // console.log(!boolean)
+// console.log(!!bool)
+
+
 // задание4
-// let num = prompt(22)
-// alert(prompt(22))
+// let num1 = +prompt('Введите первое значение');
+// let num2 = +prompt('Введите второе значение');
+//
+// alert(num1+num2);
 
 // задание5
 //
-// var a,b:integer;
-// begin
-// read(a,b);
-// write(a mod b);
-// end.
-
+// let num3 = prompt ('Значение 1')
+// let num4 = prompt('Значение 2')
+// alert(num3/num4)
 
 // задание6
 // let a = 1, b = 1;
@@ -38,6 +45,15 @@
 //
 // alert( a ); // 2, значение увеличено один раз
 // alert( b ); // 2, значение увеличено один раз
+
+//Задание7
+// const  numTest = prompt('Введите число');
+//     if () {
+//     alert(“A нечётное”)
+//     } else {
+//     alert(“A чётное”)
+// }
+
 
 
 // задание8
@@ -54,19 +70,22 @@
 // let bool1 = false
 // console.log(typeof(num))str, num1, boolean, bool1));
 
-// задание10
-// let A=201
-// if (A % 2) alert(`A 'нечётное'); alert (`A чётное`)
+//задание10
+// let A=201;
+// const result = A % 2;
+// result ?  alert('A нечётное')  : alert ('A чётное');
 
 // задание11
-// const hasSpecialChars = (str) =>;
+let login = prompt('Введите логин');
+let password = prompt('Введите пароль');
+let reslog = 'лестат';
+let respass = 202112;
+if (reslog == login && respass == password) {
+    alert ('Вы успешно вошли в систему');
+} else {
+    console.log('Пароль или логин введены не верно');
+}
 //
-// const isStrongPassword = (password) => {
-//     const length = password.length;
-//         return (length > 8 && length < 20) || hasSpecialChars(password);
-//     alert ('Вы успешно вошли в систему')
-// };
-
-// задание12
-const a='30'
-alert(!!'a')
+// // задание12
+// const a='30'
+// alert(!!'a')
