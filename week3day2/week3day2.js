@@ -1,28 +1,28 @@
 
-/*задание1
-function go(a,b) {
-    alert('a='+a+', b='+b);
-}
+//задание1
+// function go(a,b) {
+//     alert('a='+a+', b='+b);
+// }
+//
+// go(1); // a=1, b=undefined
+// go(1,2) //a=1, b=2
+// go(1,2,3) // a=1, b=2
+//
+// вариант2
+//
+// function sum() {
+//   var total = 0;
+//   for (var i = 0; i < arguments.length; i++) {
+//     total += arguments[i];
+//   }
 
-go(1); // a=1, b=undefined
-go(1,2) //a=1, b=2
-go(1,2,3) // a=1, b=2
-
-вариант2
-
-function sum() {
-  var total = 0;
-  for (var i = 0; i < arguments.length; i++) {
-    total += arguments[i];
-  }
-
-  alert(total);
-}
-
-sum(1,2,3,4,5,6);
+//   alert(total);
+// }
+//
+// sum(1,2,3,4,5,6);
 
 
- */
+//задание2
 
 // function myfunc (a, b) {
 //     let result = 1;
@@ -35,28 +35,53 @@ sum(1,2,3,4,5,6);
 //
 // let onetest = myfunc(0, 1)
 
-// //задание3
-// function sum (c, r) => c + r? c+r;
-// function diff (a, b) => a > b ? a - b : b - a;
-// function diff (a, b) => a * b ? a * b : b * a;
-// function diff (a, b) => a : b ? a : b : b : a;
+//задание3
+// const nameSum = (a, b) => a + b;
+//     console.log(nameSum(10, 20));
+//
+// const nameSum1 = (a, b) => a - b;
+// console.log(nameSum1(10, 20));
+//
+// const nameSum2 = (a, b) => a * b;
+// console.log(nameSum2(10, 20));
+//
+// const nameSum3 = (a, b) => a % b;
+// console.log(nameSum3(10, 20));
+
+
 
 //задание4
-function showName (гость) {
-    console.log ('Здрасте гость')
-}
+// function showName (name = 'гость' )  {
+//         console.log(`Здравствуйте`, name);
+// }
+// showName ();
 
-showName('гость')
-let name = ('гость')
 
-//задание 5
-const fib2 = n => {
-    if(n == 0){
-        return [0, 1];
-    }else{
-        const [prev, next] = fib2(n - 1);
-        return [next, prev + next];
-    }
-}
+//задание5
+// function fibonacci2(num){
+//     if (num <2 ) {
+//         return num;
+//     }
+//     return fibonacci2 (num-1)+fibonacci2(num-2)
+// }
+// console.log (fibonacci2(10))
+// задание 6
+// function fibShort (num) {
+//     let n = 1,
+//         e = 1;
+//
+//         for (let i = 3; i <= num;i++) {
+//             [n,e] = [e, n + e] ;
+//              }
+//         return e;
+//
+// }
+// console.log (fibShort(10))
+//
 
-const fib = n => fib2(n)[0];
+//Задание6
+
+
+
+
+
