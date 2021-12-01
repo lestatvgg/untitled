@@ -23,3 +23,17 @@ li:hover {
 
 
 }
+.color_red:hover {
+    color: blue;
+}
+
+.day3_blue:hover {
+    color: red;
+}
+
+input::placeholder {
+    color: red;
+    font-size: 1.2em;
+    font-style: italic;
+    background-color: lightgrey;
+}
