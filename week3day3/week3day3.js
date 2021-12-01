@@ -70,3 +70,18 @@
 // 'I learn JavaScript'.indexOf('JavaScript');
 
 
+
+
+
+//часть2
+//заданиние1
+
+let obj = {a:'a', b:'b', c:'c'};
+
+console.log (a)
+
+let a = 10
+
+
+
+

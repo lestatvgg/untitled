@@ -18,7 +18,8 @@
 // // console.log(nameStyle.className)
 // //
 // // nameStyle.className = "Offf"
-//
+// id = 'black'
+// console.log (id)
 // console.log(nameStyle.classList);
 // nameStyle.classList.backgroundColor = 'green'
 
@@ -99,29 +100,19 @@
 
 //задание4
 // const table1 = document.querySelector('.table1')
-
+// table.onclick = function(event) {
+//     let td = event.target.closest('td');
+//
+//     if (!td) return;
+//
+//     if (!table.contains(td)) return;
+//
+//     highlight(td);
+// };
 
 //задание7
-
-// function createButton(context, id , value ,func)
-// {
-//     let button = document.createElement("input");
-//     button.type = "button";
-//     button.id = id;
-//     button.value = value; // text on button
-//     button.onclick = func;
-//     context.appendChild(button);
-// }
+//  const button1 = document.querySelector('.delete-btn')
 //
-// function resetGame() {
-//     let resetButton = document.getElementById("resetButton");
-//     let parentOfResetButton = resetButton.parentElement;
-//     parentOfResetButton.removeChild(resetBottun);
-// }
-// console.log (resetButton);
-
-//вариант2\\\\\
-
 // <button class="delete-btn" onclick="deleteFunc(this)">delete button</button>
 // const deleteFunc = el => {
 //     let btn = el;

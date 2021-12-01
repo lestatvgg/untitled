@@ -16,13 +16,13 @@
 // let num = prompt(22)
 // alert(prompt(22))
 
-// задание5
-//
-// var a,b:integer;
-// begin
-// read(a,b);
-// write(a mod b);
-// end.
+задание5
+
+var a,b:integer;
+begin
+read(a,b);
+write(a mod b);
+end.
 
 
 // задание6
